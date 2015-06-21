@@ -65,4 +65,4 @@ names(X1) <- features_interest
 tidy_data <- cbind(X1,subjects,labels)
 ##
 # Write tidy datasets
-write.table(tidy_data,'tidy_datasets.txt')
+write.table(tidy_data,'tidy_datasets.txt',row.name=FALSE)
